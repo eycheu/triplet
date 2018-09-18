@@ -2,6 +2,8 @@
 
 The idea is to learn a Deep Neural Network using triplets. Triples consist of an anchor point, a positive point, and a negative point. Anchor and positive points belong to the same classification, category, or class label while negative point that is not of the same class label as anchor point is a point close to the anchor point in the embedding space. The objective is to learn a complex function such that anchor points eventually "move" close to all other points of the same class label and far away to all other negative points in the embedding space.
 
+Illustration of the learning algorithm using PyTorch in producing the embedding space is shown below.
+
 ![Demo1](https://github.com/eycheu/triplet/blob/master/image/demo1.png)
 
 This simple demonstration utilised a L2 Norm clamped embedding space instead of a L2 Norm space in [1], and the following non-linear triplet loss function is adapted from [2].
