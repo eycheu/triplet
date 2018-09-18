@@ -18,6 +18,8 @@ The learning methodology is extended to the next example with dummy data randoml
 
 ![Demo2](https://github.com/eycheu/triplet/blob/master/image/demo2.png)
 
+While the examples show the use of embedding space to verify data patterns, recognise differences, and clusters similar points, this learning method can also be applied to channel equalisation. The positive point can be a fixed point in the embedding space that represents a symbol in a constellation diagram. An embedding network could be periodically tuned to learn a reversal of distortion incurred when signal is transmitted through a channel.
+
 ## References
 
 [1] Florian Schroff, Dmitry Kalenichenko, James Philbin. [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832). CVPR, 2015.
