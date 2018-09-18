@@ -1,4 +1,4 @@
-# Learning Embedding Space using Triplets
+# Learning Constellation using Triplets
 
 The idea is to learn a Deep Neural Network using triplets. Triples consist of an anchor point, a positive point, and a negative point. Anchor and positive points belong to the same classification, category, or class label while negative point that is not of the same class label as anchor point is a point close to the anchor point in the embedding space. The objective is to learn a complex function such that anchor points eventually "move" close to all other points of the same class label and far away to all other negative points in the embedding space.
 
